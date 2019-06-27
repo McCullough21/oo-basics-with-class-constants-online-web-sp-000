@@ -10,11 +10,11 @@ GENRES = []
 
 def genre=(genre)
   @genre = genre
+  GENRES << genre
 end
 
 def genre
   @genre
-  GENRES << @genre.new("")
 end
 
   def turn_page
