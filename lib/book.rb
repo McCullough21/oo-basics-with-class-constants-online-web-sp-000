@@ -14,7 +14,7 @@ end
 
 def genre
   @genre
-  GENRES << genre.new("")
+  GENRES << @genre.new("")
 end
 
   def turn_page
