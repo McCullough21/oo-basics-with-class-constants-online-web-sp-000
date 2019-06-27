@@ -15,6 +15,7 @@ end
 def genre
   @genre
   GENRES << genre.new("")
+end
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
